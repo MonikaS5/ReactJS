@@ -25,6 +25,7 @@ import ElementVariable from './components/ElementVariable';
 import TernaryOperator from './components/TernaryOperator';
 import Shortcircuit from './components/Shortcircuit';
 import ArrayList from './components/ArrayList';
+import ObjectRender from './components/ObjectRender';
 
 function App() {
   return (
@@ -87,6 +88,7 @@ function App() {
     <TernaryOperator/>
     <Shortcircuit/>
     <ArrayList/>
+    <ObjectRender/>
     </div>
   );
 }
