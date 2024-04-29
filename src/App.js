@@ -24,6 +24,7 @@ import Userconditional from './components/Userconditional';
 import ElementVariable from './components/ElementVariable';
 import TernaryOperator from './components/TernaryOperator';
 import Shortcircuit from './components/Shortcircuit';
+import ArrayList from './components/ArrayList';
 
 function App() {
   return (
@@ -85,6 +86,7 @@ function App() {
     <ElementVariable/>
     <TernaryOperator/>
     <Shortcircuit/>
+    <ArrayList/>
     </div>
   );
 }
