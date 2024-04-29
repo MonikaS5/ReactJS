@@ -20,6 +20,10 @@ import EventHandler from './components/EventHandler';
 import Destructuring from './components/Destructuring';
 import EventHandler2 from './components/EventHandler2';
 import ParentComponent from './components/PropsMethods/ParentComponent';
+import Userconditional from './components/Userconditional';
+import ElementVariable from './components/ElementVariable';
+import TernaryOperator from './components/TernaryOperator';
+import Shortcircuit from './components/Shortcircuit';
 
 function App() {
   return (
@@ -77,7 +81,10 @@ function App() {
 
       <ParentComponent />
 
-
+    <Userconditional/>
+    <ElementVariable/>
+    <TernaryOperator/>
+    <Shortcircuit/>
     </div>
   );
 }

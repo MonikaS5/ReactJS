@@ -7,8 +7,14 @@ export class ParentComponent extends Component {
         super(props)
 
         this.state = {
-
+            parentName: "John"
         }
+        this.parentOne=this.parentOne.bind(this)
+    }
+
+    parentOne(childData){
+        alert(`Hello ${this.state.parentName}`);
+        alert(`Hello ${this.state.parentName} from  ${childData}`);
     }
     render() {
         return (
@@ -17,7 +23,8 @@ export class ParentComponent extends Component {
                 <div>ParentComponent</div>
                 <div>
                     <h3>This is Child component</h3>
-                    <ChildComponent />
+                    <ChildComponent parenthandler={this.parentOne}/>
+
                 </div>
                 
             </>
