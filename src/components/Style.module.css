@@ -1,0 +1,16 @@
+.heading1{
+    color:red;
+    background-color: aqua;
+}
+
+.heading{
+    color: orangered;
+    background-color: orchid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+#para{
+    color: rgb(11, 3, 86);
+    border: 2px solid rgb(255, 174, 0);
+    font-weight: bold;
+}

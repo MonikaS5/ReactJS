@@ -27,6 +27,7 @@ import Shortcircuit from './components/Shortcircuit';
 import ArrayList from './components/ArrayList';
 import ObjectRender from './components/ObjectRender';
 import ObjectRender2 from './components/ObjectRender2';
+import CssStyle from './components/CssStyle';
 
 function App() {
   return (
@@ -91,6 +92,9 @@ function App() {
     <ArrayList/>
     <ObjectRender/>
     <ObjectRender2/>
+
+    <CssStyle/>
+    
     </div>
   );
 }

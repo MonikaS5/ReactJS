@@ -1,20 +1,21 @@
 import React from 'react'
+import Person from './Person'
 
 function ObjectRender2() {
-    const person = [{
+    const Students = [{
         id: 1,
         name: "John",
         age: 21,
         courseName: "MERN"
     },
     {
-        id: 1,
+        id: 2,
         name: "Ron",
-        age: 21,
+        age: 23,
         courseName: "MEAN"
     },
     {
-        id: 1,
+        id: 2,
         name: "Bob",
         age: 21,
         courseName: "Full Stack"
@@ -22,22 +23,30 @@ function ObjectRender2() {
     ];
     const name1 =["Tia", "Meenu", "Chinu"];
 
-    const personList= person.map(person=>(
-        <ul style={{listStyleType:'none'}}>
-            <li>Key : {person.id}</li>
-            <li>name : {person.name}</li>
-            <li>age : {person.age}</li>
-            <li>Course name : {person.courseName}</li>
-        </ul>
-             
-    ))
-    const nameList= name1.map((name1)=>
-                  <h2>Name = {name1}</h2>  );
+     
+    const studlist = Students.map(student=>
+    <li key={student.id}>
+        <p> <b>{student.name}</b> 
+        <span>:  {student.courseName} </span></p>
+    </li>)
+
+    
+    const nameList= name1.map((name, index)=>
+                  <h2 key = {index}>{name}</h2> );
+
+                         
+                 
   return (
     <>
     <hr/>
-    <div>{personList}</div>
+    
+
+    <ul style={{listStyleType:'none'}}>{studlist}</ul>
     <div>{nameList}</div>
+    <div>{nameList[1]}</div>
+
+    <p>This is from Person component</p>
+    <Person />
 
     </>
     
