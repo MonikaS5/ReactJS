@@ -8,13 +8,13 @@ function ObjectRender() {
         courseName: "MERN"
     },
     {
-        id: 1,
+        id: 2,
         name: "Ron",
         age: 21,
         courseName: "MEAN"
     },
     {
-        id: 1,
+        id: 3,
         name: "Bob",
         age: 21,
         courseName: "Full Stack"

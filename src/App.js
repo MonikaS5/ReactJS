@@ -28,6 +28,7 @@ import ArrayList from './components/ArrayList';
 import ObjectRender from './components/ObjectRender';
 import ObjectRender2 from './components/ObjectRender2';
 import CssStyle from './components/CssStyle';
+import PersonDetails from './components/PersonDetails';
 
 function App() {
   return (
@@ -92,6 +93,7 @@ function App() {
     <ArrayList/>
     <ObjectRender/>
     <ObjectRender2/>
+    <PersonDetails/>
 
     <CssStyle/>
     

@@ -43,7 +43,7 @@ function ObjectRender2() {
 
     <ul style={{listStyleType:'none'}}>{studlist}</ul>
     <div>{nameList}</div>
-    <div>{nameList[1]}</div>
+    <div style={{color:"green"}}>{nameList[1]}</div>
 
     <p>This is from Person component</p>
     <Person />
